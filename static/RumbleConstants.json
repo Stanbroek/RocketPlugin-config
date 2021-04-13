@@ -1,0 +1,200 @@
+{
+	"Boot": {
+		"Spring": {
+			"Targeted": {
+				"Rumble": {
+					"Enabled": true,
+					"Duration": 99
+				},
+				"CanTargetBall": false,
+				"CanTargetCars": true,
+				"CanTargetEnemyCars": true,
+				"CanTargetTeamCars": false,
+				"Range": 2300
+			},
+			"Force": 550000,
+			"VerticalForce": 400000,
+			"Torque": [ 2000, 0, 0 ],
+			"RelativeForceNormalDirection": 1,
+			"MaxSpringLenght": 3500,
+			"ConstantForce": 0,
+			"MinSpringLenght": 30,
+			"WeldedForceScalar": 3,
+			"WeldedVerticalForce": 50000
+		}
+	},
+	"Disruptor": {
+		"Targeted": {
+			"Rumble": {
+				"Enabled": true,
+				"Duration": 5
+			},
+			"CanTargetBall": false,
+			"CanTargetCars": true,
+			"CanTargetEnemyCars": true,
+			"CanTargetTeamCars": false,
+			"Range": 40000
+		}
+	},
+	"Freezer": {
+		"Targeted": {
+			"Rumble": {
+				"Enabled": true,
+				"Duration": 4
+			},
+			"CanTargetBall": true,
+			"CanTargetCars": false,
+			"CanTargetEnemyCars": false,
+			"CanTargetTeamCars": false,
+			"Range": 2300
+		},
+		"MaintainMomentum": false,
+		"TimeToStop": 0.5,
+		"StopMomentumPercantage": 0
+	},
+	"GrapplingHook": {
+		"Targeted": {
+			"Rumble": {
+				"Enabled": true,
+				"Duration": 6
+			},
+			"CanTargetBall": true,
+			"CanTargetCars": false,
+			"CanTargetEnemyCars": false,
+			"CanTargetTeamCars": false,
+			"Range": 2800
+		},
+		"Impulse": 80000,
+		"Force": 900000,
+		"MaxRopeLength": 3500,
+		"PredictionSpeed": 3300
+	},
+	"Haymaker": {
+		"Spring": {
+			"Targeted": {
+				"Rumble": {
+					"Enabled": true,
+					"Duration": 99
+				},
+				"CanTargetBall": true,
+				"CanTargetCars": false,
+				"CanTargetEnemyCars": false,
+				"CanTargetTeamCars": false,
+				"Range": 2300
+			},
+			"Force": 80000,
+			"VerticalForce": 0,
+			"Torque": [ 0, 0, 0 ],
+			"RelativeForceNormalDirection": 1,
+			"MaxSpringLenght": 3500,
+			"ConstantForce": 0,
+			"MinSpringLenght": 30,
+			"WeldedForceScalar": 3,
+			"WeldedVerticalForce": 50000
+		}
+	},
+	"Magnetizer": {
+		"Rumble": {
+			"Enabled": true,
+			"Duration": 6
+		},
+		"BallGravity": 55000,
+		"Range": 1000,
+		"DeactivateOnTouch": false
+	},
+	"Plunger": {
+		"BallLasso": {
+			"Spring": {
+				"Targeted": {
+					"Rumble": {
+						"Enabled": true,
+						"Duration": 99
+					},
+					"CanTargetBall": true,
+					"CanTargetCars": false,
+					"CanTargetEnemyCars": false,
+					"CanTargetTeamCars": false,
+					"Range": 1800
+				},
+				"Force": 0,
+				"VerticalForce": 0,
+				"Torque": [ 0, 0, 0 ],
+				"RelativeForceNormalDirection": -1,
+				"MaxSpringLenght": 3000,
+				"ConstantForce": -20,
+				"MinSpringLenght": 30,
+				"WeldedForceScalar": 1,
+				"WeldedVerticalForce": 0
+			}
+		},
+		"SpinSpeed": 0
+	},
+	"Powerhitter": {
+		"Rumble": {
+			"Enabled": true,
+			"Duration": 12
+		},
+		"BallForce": true,
+		"CarForce": true,
+		"DemolishCars": true,
+		"BallHitForce": 1.5,
+		"CarHitForce": 30
+	},
+	"Spikes": {
+		"Rumble": {
+			"Enabled": true,
+			"Duration": 12
+		},
+		"AfterHitDuration": 4.5,
+		"PostBreakDuration": 0.6,
+		"MinBreakForce": 1200,
+		"MinBreakTime": 0.6,
+		"AttachTime": 0,
+		"BreakTime": 0
+	},
+	"Swapper": {
+		"Targeted": {
+			"Rumble": {
+				"Enabled": true,
+				"Duration": 0.75
+			},
+			"CanTargetBall": false,
+			"CanTargetCars": true,
+			"CanTargetEnemyCars": true,
+			"CanTargetTeamCars": false,
+			"Range": 10000
+		}
+	},
+	"Tornado": {
+		"Rumble": {
+			"Enabled": true,
+			"Duration": 8
+		},
+		"Height": 800,
+		"Radius": 400,
+		"RotationalForce": 7,
+		"Force": 5,
+		"FxScale": [ 1, 1, 1 ],
+		"MeshScale": [ 1, 1, 1 ],
+		"MaxVelocityOffset": 3000,
+		"BallMultiplier": 3,
+		"VelocityEase": 5
+	},
+	"Haunted": {
+		"Gravity": {
+			"Rumble": {
+				"Enabled": true,
+				"Duration": 99
+			},
+			"BallGravity": 3500,
+			"Range": 1200,
+			"DeactivateOnTouch": false
+		}
+	},
+	"Rugby": {
+		"Rumble": {
+			"Enabled": true,
+			"Duration": 99
+		}
+	}
+}
