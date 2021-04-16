@@ -7,6 +7,7 @@
   },
   "Maps": {
     "ARC_P":                   "ARCtagon",
+    "CHN_Stadium_Day_P":       "Forbidden Temple (Day)",
     "CHN_Stadium_P":           "Forbidden Temple",
     "EuroStadium_Night_P":     "Mannfield (Night)",
     "EuroStadium_P":           "Mannfield",
@@ -34,6 +35,7 @@
     "ShatterShot_P":           "Core 707",
     "Stadium_Foggy_P":         "DFH Stadium (Stormy)",
     "Stadium_P":               "DFH Stadium",
+    "Stadium_Race_Day_p":      "DFH Stadium (Circuit)",
     "Stadium_Winter_P":        "DFH Stadium (Snowy)",
     "TrainStation_Dawn_P":     "Urban Central (Dawn)",
     "TrainStation_Night_P":    "Urban Central (Night)",
