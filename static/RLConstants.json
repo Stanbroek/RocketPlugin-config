@@ -6,6 +6,7 @@
     "InternalName": [ "TAGame.GameInfo_Soccar_TA", "TAGame.GameInfo_Basketball_TA", "TAGame.GameInfo_Hockey_TA", "TAGame.GameInfo_Items_TA", "None", "TAGame.GameInfo_Breakout_TA", "TAGame.GameInfo_GodBall_TA", "TAGame.GameInfo_Football_TA" ]
   },
   "Maps": {
+    "ARC_Darc_P":              "Starbase ARC (Aftermath)",
     "ARC_P":                   "ARCtagon",
     "CHN_Stadium_Day_P":       "Forbidden Temple (Day)",
     "CHN_Stadium_P":           "Forbidden Temple",
