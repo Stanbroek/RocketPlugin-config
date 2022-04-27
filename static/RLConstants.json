@@ -2,8 +2,8 @@
   "GameModes": {
     "DisplayCategoryName": "GameModes",
     "InternalCategoryName": "Game Modes",
-    "DisplayName":  [ "Soccar",                    "Hoops",                         "Snow Day",                  "Rumble",                   "",     "Dropshot",                    "Heatseeker",                 "Gridiron" ],
-    "InternalName": [ "TAGame.GameInfo_Soccar_TA", "TAGame.GameInfo_Basketball_TA", "TAGame.GameInfo_Hockey_TA", "TAGame.GameInfo_Items_TA", "None", "TAGame.GameInfo_Breakout_TA", "TAGame.GameInfo_GodBall_TA", "TAGame.GameInfo_Football_TA" ]
+    "DisplayName":  [ "Soccar",                    "Hoops",                         "Snow Day",                  "Rumble",                   "",     "Dropshot",                    "Heatseeker",                 "Gridiron",                    "KnockOut" ],
+    "InternalName": [ "TAGame.GameInfo_Soccar_TA", "TAGame.GameInfo_Basketball_TA", "TAGame.GameInfo_Hockey_TA", "TAGame.GameInfo_Items_TA", "None", "TAGame.GameInfo_Breakout_TA", "TAGame.GameInfo_GodBall_TA", "TAGame.GameInfo_Football_TA", "TAGame.GameInfo_KnockOut_TA" ]
   },
   "Maps": {
     "ARC_Darc_P":              "Starbase ARC (Aftermath)",
@@ -16,6 +16,9 @@
     "Farm_Night_P":            "Farmstead (Night)",
     "Haunted_TrainStation_P":  "Urban Central (Haunted)",
     "HoopsStadium_P":          "Dunk House",
+    "KO_Calavera_P":           "Calavera",
+    "KO_Carbon_P":             "Carbon",
+    "KO_Quadron_P":            "Quadron",
     "Labs_Basin_P":            "Basin",
     "Labs_CirclePillars_P":    "Pillars",
     "Labs_Corridor_P":         "Corridor",
