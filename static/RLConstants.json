@@ -2,12 +2,13 @@
   "GameModes": {
     "DisplayCategoryName": "GameModes",
     "InternalCategoryName": "Game Modes",
-    "DisplayName":  [ "Soccar",                    "Hoops",                         "Snow Day",                  "Rumble",                   "",     "Dropshot",                    "Heatseeker",                 "Gridiron",                    "KnockOut" ],
-    "InternalName": [ "TAGame.GameInfo_Soccar_TA", "TAGame.GameInfo_Basketball_TA", "TAGame.GameInfo_Hockey_TA", "TAGame.GameInfo_Items_TA", "None", "TAGame.GameInfo_Breakout_TA", "TAGame.GameInfo_GodBall_TA", "TAGame.GameInfo_Football_TA", "TAGame.GameInfo_KnockOut_TA" ]
+    "DisplayName":  [ "Soccar",                    "Hoops",                         "Snow Day",                  "Rumble",                   "",     "Dropshot",                    "Heatseeker",                 "Gridiron",                    "",     "",     "",     "",     "",     "",     "",     "KnockOut" ],
+    "InternalName": [ "TAGame.GameInfo_Soccar_TA", "TAGame.GameInfo_Basketball_TA", "TAGame.GameInfo_Hockey_TA", "TAGame.GameInfo_Items_TA", "None", "TAGame.GameInfo_Breakout_TA", "TAGame.GameInfo_GodBall_TA", "TAGame.GameInfo_Football_TA", "None", "None", "None", "None", "None", "None", "None", "TAGame.GameInfo_KnockOut_TA" ]
   },
   "Maps": {
     "ARC_Darc_P":              "Starbase ARC (Aftermath)",
     "ARC_P":                   "ARCtagon",
+    "Beach_Night_GRS_P":       "Salty Shores (Salty Fest)",
     "CHN_Stadium_Day_P":       "Forbidden Temple (Day)",
     "CHN_Stadium_P":           "Forbidden Temple",
     "EuroStadium_Dusk_P":      "Mannfield (Dusk)",
@@ -41,6 +42,7 @@
     "Labs_PillarWings_P":      "Colossus",
     "Labs_Underpass_P":        "Underpass",
     "Labs_Utopia_P":           "Utopia Retro",
+ 	  "NeoTokyo_Arcade_P":       "Neo Tokyo (Arcade)",
     "NeoTokyo_Hax_P":          "Neo Tokyo (Hacked)",
     "NeoTokyo_P":              "Tokyo Underpass",
     "NeoTokyo_Standard_P":     "Neo Tokyo",
@@ -67,6 +69,7 @@
     "Wasteland_GRS_P":         "Wasteland (Pitched)",
     "Wasteland_Night_P":       "Badlands (Night)",
     "Wasteland_P":             "Badlands",
+ 	  "Woods_Night_P":           "Drift Woods (Night)",
     "arc_standard_p":          "Starbase ARC",
     "bb_p":                    "Champions Field (NFL)",
     "beach_P":                 "Salty Shores",
@@ -86,7 +89,8 @@
     "throwbackhockey_p":       "Throwback Stadium (Snowy)",
     "throwbackstadium_P":      "Throwback Stadium",
     "wasteland_Night_S_P":     "Wasteland (Night)",
-    "wasteland_s_p":           "Wasteland"
+    "wasteland_s_p":           "Wasteland",
+    "woods_p":                 "Drift Woods"
   },
   "BotDifficulties": {
     "DisplayCategoryName": "BotDifficulty",
@@ -122,6 +126,14 @@
       "InternalCategoryName": "FreePlay",
       "DisplayName":  [ "Disable Free Play", "Enable Free Play" ],
       "InternalName": [ "",                  "FreePlay" ] },
+    { "DisplayCategoryName": "Boost",
+      "InternalCategoryName": "BoostOption",
+      "DisplayName":  [ "Default", "Unlimited",        "Auto Refill" ],
+      "InternalName": [ "",        "UnlimitedBooster", "BoostAutoRefill" ] },
+    { "DisplayCategoryName": "Goal Reset",
+      "InternalCategoryName": "GoalResetOption",
+      "DisplayName":  [ "Default", "Disable Goal Reset", "Disable Goal Scoring" ],
+      "InternalName": [ "",        "DisableGoalDelay",   "DisableGoalScoring" ] },
     { "DisplayCategoryName": "Match Length",
       "InternalCategoryName": "GameTimes",
       "DisplayName":  [ "5 Minutes",  "10 Minutes", "20 Minutes", "Unlimited" ],
@@ -180,8 +192,8 @@
       "InternalName": [ "",        "NoBooster", "UnlimitedBooster", "SlowRecharge",    "RapidRecharge" ] },
     { "DisplayCategoryName": "Rumble",
       "InternalCategoryName": "Items",
-      "DisplayName":  [ "None", "Default",   "Slow",          "Civilized",                 "Destruction Derby",        "Spring Loaded",    "Spikes Only",     "Spike Rush",     "Batman Rumble", "Haunted Ball Beam",        "Tactical Rumble" ],
-      "InternalName": [ "",     "ItemsMode", "ItemsModeSlow", "ItemsModeBallManipulators", "ItemsModeCarManipulators", "ItemsModeSprings", "ItemsModeSpikes", "ItemsModeRugby", "ItemsMode_BM",  "ItemsModeHauntedBallBeam", "ItemsModeSelection" ] },
+      "DisplayName":  [ "Off", "On",        "Default",   "Slow",          "Civilized",                 "Destruction Derby",        "Spring Loaded",    "Spikes Only",     "Spike Rush",     "Batman Rumble", "Haunted Ball Beam",        "Tactical Rumble" ],
+      "InternalName": [ "",    "ItemsMode", "ItemsMode", "ItemsModeSlow", "ItemsModeBallManipulators", "ItemsModeCarManipulators", "ItemsModeSprings", "ItemsModeSpikes", "ItemsModeRugby", "ItemsMode_BM",  "ItemsModeHauntedBallBeam", "ItemsModeSelection" ] },
     { "DisplayCategoryName": "Boost Strength",
       "InternalCategoryName": "BoosterStrengths",
       "DisplayName":  [ "1X", "1.5X",                "2X",                "5X",                "10X" ],
@@ -209,6 +221,14 @@
     { "DisplayCategoryName": "Game Event",
       "InternalCategoryName": "GameEventRules",
       "DisplayName":  [ "Default", "Haunted",               "Rugby" ],
-      "InternalName": [ "",        "HauntedGameEventRules", "RugbyGameEventRules" ] }
+      "InternalName": [ "",        "HauntedGameEventRules", "RugbyGameEventRules" ] },
+    { "DisplayCategoryName": "Enforce Territories",
+      "InternalCategoryName": "TerritoryRules",
+      "DisplayName":  [ "Off",  "On" ],
+      "InternalName": [ "",     "Territory" ] },
+    { "DisplayCategoryName": "Stale Ball Reset Timer",
+      "InternalCategoryName": "StaleBall",
+      "DisplayName":  [ "Off",  "30 Seconds" ],
+      "InternalName": [ "",     "ThirtySeconds" ] }
   ]
 }
